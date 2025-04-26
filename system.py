@@ -16,7 +16,7 @@ CHECK_INTERVAL= int(os.getenv("CHECK_INTERVAL"))
 UTILIZATION_THRESHOLD= int(os.getenv("UTILIZATION_THRESHOLD"))
 LATENCY_THRESHOLD_MS= int(os.getenv("LATENCY_THRESHOLD_MS"))
 # =============== CONFIGURATION ===============
-SERVER_TO_PING = "http://127.0.0.1:8010"
+SERVER_TO_PING = "http://54.254.84.101:8010"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
